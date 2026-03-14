@@ -1,0 +1,21 @@
+{
+  "name": "chatarchive-v1",
+  "version": "1.0.0",
+  "description": "Electron app to queue and export ChatGPT chats as HTML, PDF, and TXT",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/unit/*.test.js"
+  },
+  "keywords": [
+    "electron",
+    "chat",
+    "archive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^31.0.2",
+    "uuid": "^11.0.3"
+  }
+}

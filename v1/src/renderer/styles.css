@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: Arial, sans-serif; background: #0f172a; color: #e2e8f0; }
+#controls { width: 360px; height: 100vh; overflow: auto; padding: 12px; box-sizing: border-box; border-right: 1px solid #334155; }
+section { margin-bottom: 12px; padding: 10px; background: #1e293b; border-radius: 8px; }
+button { margin: 2px; padding: 6px 10px; cursor: pointer; }
+input[type='text'] { width: 100%; padding: 6px; margin-bottom: 4px; box-sizing: border-box; }
+.queue-item { display: flex; gap: 8px; align-items: start; margin-bottom: 6px; }
+.small { font-size: 12px; opacity: 0.8; }
+#status-log { max-height: 140px; overflow: auto; background: #020617; padding: 6px; border-radius: 6px; }

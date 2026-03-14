@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Electron build output
+dist/
+out/
+build/
+
+# Exported chat data — user-generated, not part of the repo
+v1/output_chat_store/*
+v2/output_chat_store/*
+!v1/output_chat_store/.gitkeep
+!v2/output_chat_store/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

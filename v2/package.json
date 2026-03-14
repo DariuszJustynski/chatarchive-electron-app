@@ -1,0 +1,22 @@
+{
+  "name": "chatarchive-v2",
+  "version": "2.0.0",
+  "description": "Electron app to queue, export, and analyze ChatGPT chats — with statistics module",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/unit/*.test.js"
+  },
+  "keywords": [
+    "electron",
+    "chat",
+    "archive",
+    "statistics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^31.0.2",
+    "uuid": "^11.0.3"
+  }
+}
